@@ -7,8 +7,14 @@ using System.Threading.Tasks;
 
 namespace FileWatcherService
 {
+   
     static class Program
+    { 
+        
+        static void fn()
     {
+        Console.WriteLine("hello this is checking me");
+    }
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
