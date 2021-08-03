@@ -18,6 +18,9 @@ namespace FileWatcherService
             servicestorun = new ServiceBase[]
             {
                 new Service1()
+                //this is changing
+
+
             };
             ServiceBase.Run(servicestorun);
             //Service1 service = new Service1();
